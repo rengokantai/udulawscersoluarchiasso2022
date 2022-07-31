@@ -27,3 +27,21 @@ Preflight Response
 Access-control-allow-origin: A
 Access-control-allow-methods: GET, PUT, DELETE
 ```
+
+#### S3 CORS Hands On
+Permission -> CORS
+```
+[
+  {
+    "AllowedHeaders": [
+    ],
+    "AllowedMethods":[
+    ],
+    "AllowedOrigins":[
+    ],
+    "ExposedHeaders":[
+    ],
+    "MaxAgeSeconds": 3000
+  }
+]
+```
