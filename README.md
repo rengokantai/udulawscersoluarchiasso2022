@@ -7,3 +7,8 @@ Principal: The account or user to apply the policy to
 |--|--|--|--|--|
 |\*|Deny|s3:PutObject|arn| Null s3:x-amz-server-side-encryption;"true"|
 |\*|Deny|s3:PutObject|arn| StringNotEquals s3:x-amz-server-side-encryption;"AES256"|
+
+#### S3 Websites
+|Principal|Effect|Action|Resource|Conditions|
+|--|--|--|--|--|
+|\*|Allow|s3:GetObject|arn||
