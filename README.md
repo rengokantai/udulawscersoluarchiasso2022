@@ -12,3 +12,18 @@ Principal: The account or user to apply the policy to
 |Principal|Effect|Action|Resource|Conditions|
 |--|--|--|--|--|
 |\*|Allow|s3:GetObject|arn||
+
+
+
+#### S3 CORS
+##### Preflight Requeset
+```
+OPTIONS
+Host B
+Origin A
+```
+Preflight Response
+```
+Access-control-allow-origin: A
+Access-control-allow-methods: GET, PUT, DELETE
+```
