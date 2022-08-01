@@ -1,5 +1,8 @@
 # udulawscersoluarchiasso2022
 
+#### EC2 Instance Types Basics
+[EC2 info](ec2instances.info)
+
 #### S3 Security & Bucket Policies
 Principal: The account or user to apply the policy to
 #### S3 Bucket Policies Hands On
