@@ -56,3 +56,9 @@ Permission -> CORS
   }
 ]
 ```
+
+
+
+## Section 25: Networking - VPC
+### CIDR, Private vs public IP
+classless inter-domain routing -a method for allocating IP address
