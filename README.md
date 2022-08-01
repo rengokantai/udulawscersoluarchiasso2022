@@ -1,17 +1,25 @@
 # udulawscersoluarchiasso2022
 
-#### EC2 Instance Types Basics
+## EC2 Fundamentals
+### EC2 Instance Types Basics
 [EC2 info](http://ec2instances.info)
 
-#### S3 Security & Bucket Policies
+
+## EC2 - solutions architect
+### EC2 Placement Groups
+You can specify
+- Cluster: single AZ
+- Spread: across underlying hardware
+
+### S3 Security & Bucket Policies
 Principal: The account or user to apply the policy to
-#### S3 Bucket Policies Hands On
+### S3 Bucket Policies Hands On
 |Principal|Effect|Action|Resource|Conditions|
 |--|--|--|--|--|
 |\*|Deny|s3:PutObject|arn| Null s3:x-amz-server-side-encryption;"true"|
 |\*|Deny|s3:PutObject|arn| StringNotEquals s3:x-amz-server-side-encryption;"AES256"|
 
-#### S3 Websites
+### S3 Websites
 |Principal|Effect|Action|Resource|Conditions|
 |--|--|--|--|--|
 |\*|Allow|s3:GetObject|arn||
