@@ -65,3 +65,7 @@ classless inter-domain routing -a method for allocating IP address
 
 ### VPC Overview
 You can have multiple VPCs in an AWS region (max 5 per region - soft limit)
+
+##### Max CIDR per VPC is 5. For each CIDR
+Min size is/28  (16 address)
+Max size is/16  (65536 address)
