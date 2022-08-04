@@ -62,3 +62,6 @@ Permission -> CORS
 ## Section 25: Networking - VPC
 ### CIDR, Private vs public IP
 classless inter-domain routing -a method for allocating IP address
+
+### VPC Overview
+You can have multiple VPCs in an AWS region (max 5 per region - soft limit)
