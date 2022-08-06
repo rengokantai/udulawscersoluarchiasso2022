@@ -69,3 +69,7 @@ You can have multiple VPCs in an AWS region (max 5 per region - soft limit)
 ##### Max CIDR per VPC is 5. For each CIDR
 Min size is/28  (16 address)
 Max size is/16  (65536 address)
+
+### Internet Gateway and Route Tables
+
+One VPC can only be attached to one IGW and vice versa
