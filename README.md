@@ -73,3 +73,6 @@ Max size is/16  (65536 address)
 ### Internet Gateway and Route Tables
 
 One VPC can only be attached to one IGW and vice versa
+
+### Bastion Hosts
+- We can use a Bastion Host to SSH into our private EC2 instances
