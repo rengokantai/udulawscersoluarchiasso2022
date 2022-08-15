@@ -106,3 +106,6 @@ If true, assigns public hostname to EC2 instance if it has a public IPv4
 ### NACL & Security Groups
 One NACL per subnet, new subnets are assigned the Default NACL
 1-32766, higher precedence with a lower number
+
+##### Default NACL
+Accept everything inbound/outbound with the subnets it's associated with
