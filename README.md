@@ -101,3 +101,7 @@ By default
 - True => default VPC
 - False => newly created VPCs
 If true, assigns public hostname to EC2 instance if it has a public IPv4
+
+
+### NACL & Security Groups
+One NACL per subnet, new subnets are assigned the Default NACL
