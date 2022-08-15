@@ -84,3 +84,10 @@ HTTPS
 Source: 10.0.0.0/16
 ##### 04:48
 Add All ICMP - IPv4   10.0.0.0/16
+
+
+
+
+### NAT Gateways
+
+- Must create multiple NAT Gateways in multiple AZ for fault-tolerance
