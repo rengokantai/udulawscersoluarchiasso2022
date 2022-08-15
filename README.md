@@ -91,3 +91,7 @@ Add All ICMP - IPv4   10.0.0.0/16
 ### NAT Gateways
 - NAT Gateway is resilient within a single availablity zone
 - Must create multiple NAT Gateways in multiple AZ for fault-tolerance
+
+
+### DNS Resolution Options Route 53 Private Zones
+DNS Resolution (enableDnsSupport)
