@@ -95,3 +95,8 @@ Add All ICMP - IPv4   10.0.0.0/16
 
 ### DNS Resolution Options Route 53 Private Zones
 DNS Resolution (enableDnsSupport)
+
+##### DNS Hostnames
+By default
+- True => default VPC
+- False => newly created VPCs
