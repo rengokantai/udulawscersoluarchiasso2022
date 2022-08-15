@@ -76,3 +76,9 @@ One VPC can only be attached to one IGW and vice versa
 
 ### Bastion Hosts
 - We can use a Bastion Host to SSH into our private EC2 instances
+
+
+### NAT Instances Hands On
+HTTP
+HTTPS
+Source: 10.0.0.0/16
